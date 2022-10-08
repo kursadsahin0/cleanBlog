@@ -1,0 +1,30 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "cleanblog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kursadsahin0/cleanBlog.git"
+  },
+  "author": "Kürşat Şahin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kursadsahin0/cleanBlog/issues"
+  },
+  "homepage": "https://github.com/kursadsahin0/cleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.5"
+  }
+}
